@@ -101,7 +101,11 @@
 -- SELECT sum(orders.order_amount) / 5 as average
 -- from orders
 
-
+-- SELECT customers.first_name as customer, orders.order_amount as order_amount
+-- FROM order_details
+-- JOIN orders on orders.order_id = order_details.order_id
+-- JOIN products on products.product_id = order_details.product_id
+-- JOIN customers on customers.customer_id = orders.customer_id
 
 
 
