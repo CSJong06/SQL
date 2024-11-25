@@ -30,5 +30,3 @@ The database includes the following tables:
 Clone this repository to your local machine:
    ```bash
    git clone <repository-url>
-
-
